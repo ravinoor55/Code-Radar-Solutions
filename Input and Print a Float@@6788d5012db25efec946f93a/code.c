@@ -1,5 +1,7 @@
+#include <studio.h>
 int main () {
+
     float num;
     scanf("%f",&num);
-    print(num)
+    printf("You entered:%f ",num);
 }
