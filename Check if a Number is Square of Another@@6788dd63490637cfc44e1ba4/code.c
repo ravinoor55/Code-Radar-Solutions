@@ -3,8 +3,9 @@
 int main() {
     int a;
     int b;
+    int c = b*b;
     scanf("%d%d",&a,&b);
-    if ((b*b)==a)
+    if (c==a)
         print("Yes");
     else 
         print("No"):
