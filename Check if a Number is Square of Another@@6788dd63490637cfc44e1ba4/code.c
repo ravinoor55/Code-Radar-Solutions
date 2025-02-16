@@ -3,12 +3,13 @@
 int main() {
     int a;
     int b;
-    int c = b*b;
+    int c;
     scanf("%d%d",&a,&b);
+    c = b*b;
     if (c==a)
-        print("Yes");
+        printf("Yes");
     else 
-        print("No"):
+        printf("No"):
     
 
 }
